@@ -15,7 +15,7 @@ npm install --save link2twenty/l2t-fab-footer
 <html>
   <head>
     <script type="module">
-      import 'link2twenty/l2t-fab-footer/l2t-fab-footer.js';
+      import 'l2t-fab-footer/l2t-fab-footer.js';
       import '@polymer/iron-icons/iron-icons.html';
     </script>
   </head>
@@ -28,7 +28,7 @@ npm install --save link2twenty/l2t-fab-footer
 ### In a Polymer 3 element
 ```js
 import {PolymerElement, html} from '@polymer/polymer';
-import '@polymer/l2t-fab-footer/l2t-fab-footer.js';
+import 'l2t-fab-footer/l2t-fab-footer.js';
 import '@polymer/iron-icons/iron-icons.html';
 
 class SampleElement extends PolymerElement {
