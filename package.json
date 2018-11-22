@@ -11,6 +11,10 @@
     "Footer",
     "Web-components"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Link2Twenty/l2t-fab-footer.git"
+  },
   "author": "Andrew Bone",
   "license": "MIT",
   "dependencies": {
