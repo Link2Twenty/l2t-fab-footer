@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+  <title>l2t-fab-footer demo</title>
+
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@^2.0.0/webcomponents-loader.js"></script>
+  <script type="module">
+    import '@polymer/iron-demo-helpers/demo-snippet.js';
+    import '@polymer/iron-demo-helpers/demo-pages-shared-styles.js';
+    import '../l2t-fab-footer.js';
+    import {html} from '@polymer/polymer/lib/utils/html-tag.js';
+    const template = html`
+      <custom-style>
+        <style is="custom-style" include="demo-pages-shared-styles">
+          .vertical-section-container {
+            max-width: 550px;
+          }
+        </style>
+      </custom-style>`;
+    document.body.appendChild(template.content);
+  </script>
+</head>
+<body unresolved>
+  <div class="vertical-section-container centered">
+    <h3>FABs can be enabled or disabled</h3>
+    <demo-snippet class="centered-demo">
+      <template>
+        <l2t-fab-footer icon="favorite" title="heart"></l2t-fab-footer>
+        <l2t-fab-footer disabled icon="reply" title="reply"></l2t-fab-footer>
+      </template>
+    </demo-snippet>
+
+    <h3>FABs can be made smaller using the <i>mini</i> attribute</h3>
+    <demo-snippet class="centered-demo">
+      <template>
+        <l2t-fab-footer mini icon="favorite" title="heart"></l2t-fab-footer>
+        <l2t-fab-footer mini disabled icon="reply" title="reply"></l2t-fab-footer>
+      </template>
+    </demo-snippet>
+
+    <h3>FABs can hide the ripple effect using the <i>noink</i> attribute</h3>
+    <demo-snippet class="centered-demo">
+      <template>
+        <l2t-fab-footer noink icon="favorite" title="heart"></l2t-fab-footer>
+      </template>
+    </demo-snippet>
+
+    <h3>FABs can be styled using custom properties</h3>
+    <demo-snippet class="centered-demo">
+      <template>
+        <custom-style>
+          <style is="custom-style">
+            l2t-fab-footer.blue {
+              --paper-fab-background: var(--paper-light-blue-500);
+              --paper-fab-keyboard-focus-background: var(--paper-light-blue-900);
+              --fab-footer-background: var(--paper-orange-900);
+            }
+            l2t-fab-footer.orange {
+              --paper-fab-background: var(--paper-orange-500);
+              --paper-fab-keyboard-focus-background: var(--paper-orange-900);
+              --fab-footer-background: var(--paper-light-blue-900);
+            }
+          </style>
+        </custom-style>
+
+        <l2t-fab-footer icon="favorite" title="heart" class="blue"></l2t-fab-footer>
+        <l2t-fab-footer icon="favorite" title="heart" class="orange"></l2t-fab-footer>
+      </template>
+    </demo-snippet>
+  </div>
+</body>
+</html>
