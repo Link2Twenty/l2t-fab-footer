@@ -22,18 +22,10 @@ how to use a custom icon set.
 Example:
 
     <script type="module">
-      import '@polymer/l2t-fab-footer/l2t-fab-footer.js';
+      import './l2t-fab-footer/l2t-fab-footer.js';
     </script>
 
     <l2t-fab-footer icon="favorite"></l2t-fab-footer>
-
-To use `paper-icon-button` as a link, wrap it in an anchor tag. Since
-`paper-icon-button` will already receive focus, you may want to prevent the
-anchor tag from receiving focus as well by setting its tabindex to -1.
-
-    <a href="https://www.polymer-project.org" tabindex="-1">
-      <paper-icon-button icon="polymer"></paper-icon-button>
-    </a>
 
 ### Styling
 
