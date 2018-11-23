@@ -1,6 +1,6 @@
 {
   "name": "l2t-fab-footer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Polymer Element to display FAB in a footer toolbar",
   "main": "l2t-fab-footer.js",
   "scripts": {
