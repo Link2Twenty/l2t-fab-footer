@@ -1,7 +1,7 @@
 [![Published on NPM](https://img.shields.io/npm/v/l2t-fab-footer.svg)](https://www.npmjs.com/package/l2t-fab-footer)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/l2t-fab-footer)
 
-[![NPM Stats](https://nodei.co/npm/l2t-fab-footer.png)]
+![NPM Stats](https://nodei.co/npm/l2t-fab-footer.png)]
 
 ## &lt;l2t-fab-footer&gt;
 
