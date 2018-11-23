@@ -10,7 +10,7 @@
 <custom-element-demo>
   <template>
     <script type="module">
-      import './l2t-fab-footer/l2t-fab-footer.js';
+      import 'https://cdn.jsdelivr.net/gh/Link2Twenty/l2t-fab-footer@build/build/bundle.js';
     </script>
     <next-code-block></next-code-block>
   </template>
@@ -19,6 +19,8 @@
 -->
 ```html
 <l2t-fab-footer icon="create"></l2t-fab-footer>
+<l2t-fab-footer disabled icon="add"></l2t-fab-footer>
+<l2t-fab-footer mini icon="build"></l2t-fab-footer>
 ```
 
 See: [Documentation](https://www.webcomponents.org/element/l2t-fab-footer), [Demo](https://www.webcomponents.org/element/l2t-fab-footer/demo/demo/index.html).
